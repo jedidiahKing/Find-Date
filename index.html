@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Find Date</title>
+        <link href="css/reset.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="header"><h1>Find a Date</h1></div>
+        <div id="main">
+            <div class="row main1">
+                <div class="row">
+                    <label>Gender</label><br />
+                    <select id="gender">
+                        <option value="A">All</option>
+                        <option value="F">Female</option>
+                        <option value="M">Male</option>
+                    </select>
+                </div>
+                <div class="row">
+                    <label>Hobbies</label><br />
+                    <input type="text" id="hobby" />
+                </div>
+                <div class="row">
+                    <label for="" class="ages">Age</label><br>
+                    <input type="number" id='minAge' placeholder="min-Age" /><br>
+                    <input type="number" id='maxAge' placeholder="max-Age" />
+                </div>
+                <div class="row">
+                    <button id="searchBtn">Search</button>
+                </div>
+            </div>
+            <div id="results">
+    
+            </div>
+        </div>
+        <script src="js/script.js"></script>
+    </body>
+</html>
