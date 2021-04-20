@@ -29,9 +29,10 @@ h1 {
 .person-row {
     margin: 10px 0px;
     padding: 10px;
-    background-color: #FDB45C;
+    background-color: #f80e0e;
     width: 100%;
     float: left;
+    border: black;
 }
 
 .person-row img {
@@ -45,4 +46,44 @@ h1 {
 
 .person-row > button {
    float: right; 
+
+}
+input + input {
+    margin: 15px 0;
+}
+#searchBtn{
+    padding: 10px;
+    width: 150px;
+    font-size: 1rem;
+    display: grid;
+    border-radius: 10px;
+}
+
+
+input{
+    padding: 5px;
+    font-size: 1rem;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid black;
+}
+#main{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.main1{
+    margin-top: 95px;
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+
+    body{
+        color: green;
+        border: 2px solid red;
+    }
+    .main1{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
 }
