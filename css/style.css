@@ -85,10 +85,6 @@ input{
 
 @media screen and (min-width: 700px) and (max-width: 1000px) {
 
-    body{
-        color: green;
-        border: 2px solid red;
-    }
     .main1{
         display: grid;
         grid-template-columns: 1fr;
